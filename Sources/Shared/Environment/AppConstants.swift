@@ -79,7 +79,7 @@ public enum AppConstants {
 
     /// The App Group ID used by the app and extensions for sharing data.
     public static var AppGroupID: String {
-        "group." + BundleID.lowercased()
+        "group." + BundleID
     }
 
     public static var AppGroupContainer: URL {
